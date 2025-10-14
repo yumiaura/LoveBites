@@ -94,7 +94,14 @@ Add tint2 to Xfce session autostart. Run `xfce4-session-settings` in a terminal.
 
 ### Font
 
-I have used Iosevka. Specifically speaking, its the [Nerd Font Patched](https://aur.archlinux.org/packages/nerd-fonts-iosevka/) variant.
+I have used [Iosevka](https://github.com/be5invis/Iosevka/releases). Specifically speaking, its the [Nerd Font](https://www.nerdfonts.com/font-downloads) variant.
+
+```sh
+mkdir -p ~/.fonts
+cd .fonts/
+unzip Iosevka-33.3.1.zip 
+cp Iosevka-*.ttf ~/.fonts/
+```
 
 ## Credits 🙏
 
